@@ -616,10 +616,10 @@ transition: background-color var(--page-transition);
 .subscribe-btn:focus {
   background-color: var(--bg-active-button);
 }
-/* 
+
 .subscribe-btn-icon {
   fill: currentColor;
-} */
+}
 
 /* Modal window*/
 .backdrop {
