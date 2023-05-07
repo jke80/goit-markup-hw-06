@@ -150,7 +150,6 @@
               <div>
                 <p>Мобільні додатки</p>
               </div>
-              
             </li>
             <li class="box-list-item">
               <img
@@ -162,7 +161,6 @@
               <div>
                 <p>Дизайнерські рішення</p>
               </div>
-              
             </li>
           </ul>
         </div>
@@ -464,15 +462,37 @@
             </li>
           </ul>
         </div>
+
+        <form action="javascript:void(0);" class="footer-subscribe-form">
+          <label for="email" class="subscribe-label"
+            >Підпишіться на розсилку</label
+          >
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+              class="subscribe-input"
+              required
+            />
+            <button type="submit" class="subscribe-btn">
+              Підписатися
+              <svg class="subscribe-btn-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
 
     <!-- Модальне вікно -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-btn" data-modal-close>
-          <svg width="18" height="18">
-            <use href="./images/sprite.svg#close-black-icon"></use>
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg width="18" height="18" class="close-svg">
+            <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
       </div>
